@@ -1,0 +1,40 @@
+:root {
+    --bg-dark: #2F2F2F;
+    --main-color: #F59B00;
+    --main-text-color: #2F2F2F;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Poppins';
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav a.active{
+    color: white;
+    
+}
+.input{
+    border:1px solid #B0A9A9;
+    border-radius:5px;
+    background: transparent;
+    line-height: 160%;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}

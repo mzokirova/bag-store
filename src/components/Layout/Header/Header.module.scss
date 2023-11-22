@@ -1,0 +1,30 @@
+.header{
+background-color: var(--bg-dark);
+.header-nav{
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    .nav-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        .nav-link{
+            color: grey;
+            list-style: none;
+            
+        }
+        
+    }
+
+}
+
+}
+.active {
+    color: red;
+        opacity: 1;
+        text-decoration: underline;
+}

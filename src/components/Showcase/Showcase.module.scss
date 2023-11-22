@@ -1,0 +1,29 @@
+.showcase {
+    background-color: var(--bg-dark);
+    height: calc(100vh - 100px);
+
+    .shw-wrap {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+
+        .title {
+            width: 70%;
+        }
+    }
+}
+
+.shw-img-box {
+    width: 90%;
+    background: url('/src/assets/images/background\ image.png') center no-repeat;
+    background-size: contain;
+
+
+    .shw-img {
+        width: 90%;
+     
+    }
+}
