@@ -6,7 +6,7 @@ function Header() {
         <>
             <header className={styles.header}>
                 <nav className={styles['header-nav']}>
-                    <Link to='/'><img src="/src/assets/images/logo.png" alt="" /></Link>
+                    <Link to='/'><img src="../../assets/images/logo.png" alt="" /></Link>
                     <ul className={styles['nav-list']}>
                         <li className={styles['nav-link']}>
                             <NavLink to='/'>Home</NavLink>
