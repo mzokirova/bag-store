@@ -3,7 +3,7 @@ import styles from './Products.module.scss';
 import img1 from '../../assets/images/bag1.png';
 const cardData = [
     {
-        image: 'img1',
+        image: `${img1}`,
         bgColor:'#FFE1E8'
     },
     {
