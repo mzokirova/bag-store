@@ -1,9 +1,10 @@
 import Title from "../Title/Title";
 import styles from '../CreativeBag/CreativeBag.module.scss';
+import bag from '../../assets/images/creative_bag.png';
 function CreativeBag() {
     return (
         <section className={styles.creaBag} >
-            <img className={styles['creaBag-img']} src="/src/assets/images/creative_bag.png" alt="bags image" />
+            <img className={styles['creaBag-img']} src={bag} alt="bags image" />
             <div className={styles['creaBag-txt']}>
                 <Title top="Creative bag only for you." main="Lorem ipsum dolor sit amet consectetur adipiscing 
             elit sed do eiusmod." mini="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
