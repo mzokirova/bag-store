@@ -1,11 +1,12 @@
 import Button from '../../Button/Button';
 import styles from './Footer.module.scss';
+import logo from '../../../assets/images/logo.png'
 function Footer() {
     return ( 
         <div className={styles.footer}>
             <div className={styles['footer-wrap']}>
                 <div className={styles['footer-col']}>
-                    <a href="/"><img src="/src/assets/images/logo.png" alt="logo" /></a>
+                    <a href="/"><img src={logo} alt="logo" /></a>
                     <p >Lorem ipsum dolor sit amet consectetur adipiscing
                         sed do eiusmod.</p>
                 </div >
