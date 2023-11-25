@@ -1,8 +1,9 @@
 import ProductCard from './ProductCard';
-import styles from './Products.module.scss'
+import styles from './Products.module.scss';
+import img1 from '../../assets/images/bag1.png';
 const cardData = [
     {
-        image: '../../assets/images/bag1.png',
+        image: 'img1',
         bgColor:'#FFE1E8'
     },
     {
