@@ -1,37 +1,36 @@
 import ProductCard from './ProductCard';
 import styles from './Products.module.scss';
-import img1 from '../../assets/images/bag1.png';
 const cardData = [
     {
         image: 'bag1',
         bgColor:'#FFE1E8'
     },
     {
-        image: '../../assets/images/bag2.png',
+        image: 'bag2',
         bgColor: '#FFE1E8'
     },
     {
-        image: '../../assets/images/bag3.png',
+        image: 'bag3',
         bgColor: '#F9DCFF'
     },
     {
-        image: '../../assets/images/bag4.png',
+        image: 'bag4',
         bgColor: '#FFDEE7'
     },
     {
-        image: '../../assets/images/bag5.png',
+        image: 'bag5',
         bgColor: '#ECF1FF'
     },
     {
-        image: '../../assets/images/bag6.png',
+        image: 'bag6',
         bgColor: '#FADADE'
     },
     {
-        image: '../../assets/images/bag7.png',
+        image: 'bag7',
         bgColor: '#D9E6FE'
     },
     {
-        image: '../../assets/images/bag8.png',
+        image: 'bag8',
         bgColor: '#EBF4BF'
     },
 ]
